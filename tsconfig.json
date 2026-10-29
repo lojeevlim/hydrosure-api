@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "types": ["node"],
+    "paths": {
+      "@hydrosure/shared": ["./src/shared/index.ts"]
+    }
+  },
+  "include": ["src", "tests", "prisma/seed.ts", "prisma/seed-demo.ts", "vitest.config.ts"]
+}
